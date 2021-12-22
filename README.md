@@ -13,4 +13,8 @@ conda activate torch_cuda
 conda env list
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 python main.py
+
+# or
+conda env create --file environment.yaml
+conda activate nlp
 ```
